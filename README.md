@@ -16,7 +16,7 @@ System.out.println(message);
 System.out.println("What's your name?");
 String name = scanner.nextLine();
 System.out.println("Hi " + name);
-````
+```
 
 #### Conversation
 ```java
@@ -26,7 +26,7 @@ String firstAnswer = scanner.nextLine();
 System.out.println("Oh, how interesting. Tell me more!");
 String secondAnsert = scanner.nextLine();
 System.out.println("Thanks for sharing!");
-````
+```
 
 #### Story
 ```java
@@ -41,7 +41,7 @@ System.out.println("Here is the story:");
 System.out.println("Once upon a time there was " + name + ", who was " + job + ".");
 System.out.println("On the way to work, " + name + " relected on life.");
 System.out.println("Perhaps " + name + " will not be " + job + " forever.");
-````
+```
 
 #### Various Variables
 
@@ -49,10 +49,17 @@ System.out.println("Perhaps " + name + " will not be " + job + " forever.");
 
 
 #### Integer Input
-````java
+```java
 // Write your program here
 System.out.println("Give a number:");
 int givenNumber = scanner.nextInt();
 System.out.println("You gave the number " + givenNumber);
 ```
 
+#### Double Input
+``` java
+// Write your program here
+System.out.println("Give a number:");
+float givenNumber = scanner.nextFloat();
+System.out.println("You gave the number " + givenNumber);
+```
