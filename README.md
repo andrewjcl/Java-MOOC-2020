@@ -48,5 +48,14 @@ System.out.println("Perhaps " + name + " will not be " + job + " forever.");
 ???
 
 
+#### Integer Input
+````java
+// Write your program here
+System.out.println("Give a number:");
+int givenNumber = scanner.nextInt();
+System.out.println("You gave the number " + givenNumber);
+```
+
+
 
 
