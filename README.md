@@ -63,3 +63,12 @@ System.out.println("Give a number:");
 float givenNumber = scanner.nextFloat();
 System.out.println("You gave the number " + givenNumber);
 ```
+
+#### Boolean Input
+```java
+// Write your program here
+System.out.println("Write something:");
+String input = scanner.nextLine();
+boolean outcome = Boolean.valueOf(input);
+System.out.println("True or false? " + outcome);
+        ```
