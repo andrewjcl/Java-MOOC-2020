@@ -56,6 +56,3 @@ int givenNumber = scanner.nextInt();
 System.out.println("You gave the number " + givenNumber);
 ```
 
-
-
-
