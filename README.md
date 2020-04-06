@@ -43,5 +43,10 @@ System.out.println("On the way to work, " + name + " relected on life.");
 System.out.println("Perhaps " + name + " will not be " + job + " forever.");
 ````
 
+#### Various Variables
+
+???
+
+
 
 
