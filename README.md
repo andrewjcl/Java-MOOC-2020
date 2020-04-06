@@ -1,7 +1,7 @@
 # Exercises for the Helsinki Java MOOC 2020 version
 
 #### Message Three Times
-```
+```java
 // Write your program here
 String message = scanner.nextLine();
 
