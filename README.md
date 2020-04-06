@@ -11,7 +11,7 @@ System.out.println(message);
 ```
 
 #### Greeting
-````
+```Java
 // Write your program here
 System.out.println("What's your name?");
 String name = scanner.nextLine();
