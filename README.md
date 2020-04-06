@@ -13,7 +13,6 @@ System.out.println(message);
 #### Greeting
 ````
 // Write your program here
-
 System.out.println("What's your name?");
 String name = scanner.nextLine();
 System.out.println("Hi " + name);
