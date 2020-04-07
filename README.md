@@ -179,3 +179,13 @@ System.out.println(a + " - " + b + " = " + (a - b));
 System.out.println(a + " * " + b + " = " + (a * b));
 System.out.println(a + " / " + b + " = " + (a / (double)b));
 ```
+
+#### Orwell
+```java
+// Write your program here
+System.out.println("Give a number:");
+int number = scanner.nextInt();
+if (number == 1984) {
+    System.out.println("Orwell");
+}
+```
