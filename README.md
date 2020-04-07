@@ -71,4 +71,22 @@ System.out.println("Write something:");
 String input = scanner.nextLine();
 boolean outcome = Boolean.valueOf(input);
 System.out.println("True or false? " + outcome);
-        ```
+```
+
+#### Different Types of Input
+```java
+// Write your program here
+System.out.println("Give a string:");
+String inputString = scanner.nextLine();
+System.out.println("Give an integer:");
+int inputInt = scanner.nextInt();
+System.out.println("Give a double:");
+double inputDouble = scanner.nextDouble();
+System.out.println("Give a boolean:");
+boolean inputBool = scanner.nextBoolean();
+
+System.out.println("You gave the string " + inputString);
+System.out.println("You gave the integer " + inputInt);
+System.out.println("You gave the double " + inputDouble);
+System.out.println("You gave the boolean " + inputBool);
+```
