@@ -60,7 +60,7 @@ System.out.println("You gave the number " + givenNumber);
 ``` java
 // Write your program here
 System.out.println("Give a number:");
-float givenNumber = scanner.nextFloat();
+double givenNumber = Double.parseDouble(scanner.nextLine());
 System.out.println("You gave the number " + givenNumber);
 ```
 
