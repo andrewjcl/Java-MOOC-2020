@@ -52,8 +52,8 @@ System.out.println("Perhaps " + name + " will not be " + job + " forever.");
 ```java
 // Write your program here
 System.out.println("Give a number:");
-int givenNumber = scanner.nextInt();
-System.out.println("You gave the number " + givenNumber);
+int givenNumber = Integer.parseInt(scanner.nextLine());
+System.out.println("You gave the number " + givenNumber);   
 ```
 
 #### Double Input
