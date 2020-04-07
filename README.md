@@ -221,3 +221,19 @@ if (age < 18) {
     System.out.println("You are an adult");
 }
 ```
+
+#### Larger Than or Equal To
+```java
+// Write your program here
+System.out.println("Give the first number:");
+int a = scanner.nextInt();
+System.out.println("Give the second number:");
+int b = scanner.nextInt();
+if (a > b) {
+    System.out.println("Greater number is : " + a);
+} else if (b > a) {
+    System.out.println("Greater number is : " + b);
+} else {
+    System.out.println("The numbers are equal!");
+}
+```
