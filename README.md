@@ -34,3 +34,19 @@ while(true) {
 System.out.println("Number of numbers: " + count);
 ```
 
+#### Sum of Numbers
+```java
+// Write your program here
+int total = 0;
+while(true) {
+    System.out.println("Give a number:");
+    int number = Integer.parseInt(scanner.nextLine());
+    if (number == 0) {
+        break;
+    } else {
+        total += number;
+    }
+}
+System.out.println("Sum of the numbers: " + total);
+```
+
