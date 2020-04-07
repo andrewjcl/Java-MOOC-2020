@@ -123,7 +123,7 @@ System.out.println("Give the third number:");
 int c = scanner.nextInt();
 System.out.println("The sum of the numbers is " + (a + b + c));
 ```
-### Addition Formula
+#### Addition Formula
 ```java
 // Write your program here
 System.out.println("Give the first number:");
@@ -133,7 +133,7 @@ int b = scanner.nextInt();
 int c = a + b;
 System.out.println(a + " + " + b + " = " + c);
 ```
-### Multiplication Formula
+#### Multiplication Formula
 ```java
 // Write your program here
 System.out.println("Give the first number:");
@@ -151,6 +151,18 @@ System.out.println("Give the first number:");
 int a = scanner.nextInt();
 System.out.println("Give the second number:");
 int b = scanner.nextInt();
-double c = (a + b) / 2;
+double c = (a + b) / 2.0;
 System.out.println("The average is " + c);
+```
+#### Average of Three Numbers
+```java
+// Write your program here
+System.out.println("Give the first number:");
+int a = scanner.nextInt();
+System.out.println("Give the second number:");
+int b = scanner.nextInt();
+System.out.println("Give the third number:");
+int c = scanner.nextInt();
+double x = (a + b + c) / 3.0;
+System.out.println("The average is " + x);
 ```
