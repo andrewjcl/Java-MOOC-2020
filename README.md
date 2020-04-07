@@ -189,3 +189,12 @@ if (number == 1984) {
     System.out.println("Orwell");
 }
 ```
+#### Ancient
+```java
+// Write your program here
+System.out.println("Give a year:");
+int year = scanner.nextInt();
+    if (year < 2015) {
+    System.out.println("Ancient History!");
+    }
+```
