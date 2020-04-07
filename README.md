@@ -209,3 +209,15 @@ if (x > 0) {
     System.out.println("The number is not positive.");
 }
 ```
+
+#### Adulthood
+```java
+// Write your program here
+System.out.println("How old are you?");
+int age = scanner.nextInt();
+if (age < 18) {
+    System.out.println("You are not an adult");
+} else {
+    System.out.println("You are an adult");
+}
+```
