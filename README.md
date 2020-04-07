@@ -196,5 +196,16 @@ System.out.println("Give a year:");
 int year = scanner.nextInt();
     if (year < 2015) {
     System.out.println("Ancient History!");
-    }
+}
+```
+#### Positivity
+```java
+// Write your program here
+System.out.println("Give a number:");
+int x = scanner.nextInt();
+if (x > 0) {
+    System.out.println("The number is positive.");
+} else {
+    System.out.println("The number is not positive.");
+}
 ```
