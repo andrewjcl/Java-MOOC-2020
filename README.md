@@ -106,9 +106,9 @@ System.out.println(seconds);
 ```java
 // Write your program here
 System.out.println("Give the first number: ");
-int a = scanner.nextInt();
+int a = Integer.parseInt(scanner.nextLine());
 System.out.println("Give the second number: ");
-int b = scanner.nextInt();
+int b = Integer.parseInt(scanner.nextLine());
 int c = a + b;
 System.out.println("The sum of the numbers is " + c);
 ```
@@ -116,11 +116,11 @@ System.out.println("The sum of the numbers is " + c);
 ```java
 // Write your program here
 System.out.println("Give the first number:");
-int a = scanner.nextInt();
+int a = Integer.parseInt(scanner.nextLine());
 System.out.println("Give the second number:");
-int b = scanner.nextInt();
+int b = Integer.parseInt(scanner.nextLine());
 System.out.println("Give the third number:");
-int c = scanner.nextInt();
+int c = Integer.parseInt(scanner.nextLine());
 System.out.println("The sum of the numbers is " + (a + b + c));
 ```
 #### Addition Formula
