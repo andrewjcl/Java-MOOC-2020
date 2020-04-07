@@ -90,3 +90,14 @@ System.out.println("You gave the integer " + inputInt);
 System.out.println("You gave the double " + inputDouble);
 System.out.println("You gave the boolean " + inputBool);
 ```
+
+#### Seconds in a Day
+```java
+// Write your program here
+System.out.println("How many days would you like to convert to seconds?");
+int days = scanner.nextInt();
+int hours = days * 24;
+int minutes = hours * 60;
+int seconds =  minutes * 60;
+System.out.println(seconds);
+```
