@@ -112,3 +112,13 @@ if (count == 0) {
 }
 ```
 
+#### Counting
+```java
+// Write your program here
+int x = Integer.parseInt(scanner.nextLine());
+
+for (int i = 0; i <= x; i++) {
+    System.out.println(i);
+}
+```
+
