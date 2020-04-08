@@ -122,3 +122,12 @@ for (int i = 0; i <= x; i++) {
 }
 ```
 
+#### Counting to 100
+```java
+// Write your program here
+int x = Integer.parseInt(scanner.nextLine());
+
+for (int i = x; i <= 100; i++) {
+    System.out.println(i);
+}
+```
