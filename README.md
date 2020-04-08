@@ -170,3 +170,15 @@ for (int i = first; i <= last; i++) {
 }
 System.out.println("The sum is " + total);
 ```
+
+#### Factorial
+```java
+// Write your program here
+System.out.println("Give a number:");
+int number = Integer.parseInt(scanner.nextLine());
+int total = 1;
+for (int i = 1; i <= number; i++) {
+    total *= i;
+}
+System.out.println("Factorial: " + total);
+```
