@@ -131,3 +131,16 @@ for (int i = x; i <= 100; i++) {
     System.out.println(i);
 }
 ```
+
+#### From Where to Where
+```java
+// Write your program here
+System.out.println("Where to?");
+int end = Integer.parseInt(scanner.nextLine());
+System.out.println("Where from?");
+int start = Integer.parseInt(scanner.nextLine());
+
+for (int i = start; i <= end; i++) {
+    System.out.println(i);
+}
+```
